@@ -242,3 +242,13 @@ footer.site-footer .footer-inner {
   background: var(--bg-alt);
   color: var(--accent-dark);
 }
+
+.headshot {
+  display: block;
+  width: 100%;
+  aspect-ratio: 4 / 5;
+  object-fit: cover;
+  object-position: center top;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
