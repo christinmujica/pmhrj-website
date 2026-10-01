@@ -222,3 +222,23 @@ footer.site-footer .footer-inner {
   max-width: var(--max-width);
   margin: 0 auto;
 }
+
+.button.join {
+  background: var(--accent);
+  color: #fff;
+}
+
+.button.join:hover {
+  background: var(--accent-dark);
+  color: #fff;
+}
+
+.button-outline.join-outline {
+  border-color: var(--accent);
+  color: var(--accent-dark);
+}
+
+.button-outline.join-outline:hover {
+  background: var(--bg-alt);
+  color: var(--accent-dark);
+}
